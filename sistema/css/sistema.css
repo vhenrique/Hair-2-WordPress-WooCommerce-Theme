@@ -1,0 +1,51 @@
+.table {
+	width:100%;
+	font-size:14px;
+}
+.table th {
+	background:#000;
+	color:#FFF;
+}
+.ui-datepicker-calendar th {
+	background:#000;
+}
+.table tr:hover td
+{
+	background:#936;
+}
+.table th, .table td {
+	padding:8px;
+	border-bottom:1px solid #DDD;
+}
+.table-mini th, .table-mini td {
+	font-size:13px!important;
+	padding:2px!important;
+}
+.table-mini td {
+	color:#000!important;
+}
+
+div.titulo {
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:-1px;
+	border-bottom:1px dotted #969;
+	padding:0 6px 2px 0;
+	text-shadow:2px 2px 2px black;
+}
+
+ul.form {
+	overflow:hidden;
+	font-size:14px;
+}
+ul.form li
+{
+	padding:6px 0;
+}
+ul.form li strong {
+	width:100px;
+	float:left;
+	margin-right:6px;
+	text-align:right;
+	font-weight:bold;
+}

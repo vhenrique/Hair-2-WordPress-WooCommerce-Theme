@@ -1,0 +1,20 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /~cabelobrasileiro/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /~cabelobrasileiro/index.php [L]
+</IfModule>
+
+# END WordPress
+RewriteCond %{HTTP_HOST} ^clinicamarthahair\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.clinicamarthahair\.com\.br$
+RewriteRule ^/?$ "http\:\/\/cabelobrasileiromarthahair\.com\.br" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^cabelosdosulmartha\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cabelosdosulmartha\.com\.br$
+RewriteRule ^/?$ "http\:\/\/cabelobrasileiromarthahair\.com\.br" [R=301,L]
+
